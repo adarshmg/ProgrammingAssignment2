@@ -55,7 +55,7 @@ makeCacheMatrix <- function(mtx = matrix()) {
 # matrix
 # parameters: makeCacheMatrix vector
 #              additional inputs to solve function.
-# result: inversion matrix.
+# result: inverse matrix.
 ##
 cacheSolve <- function(x, ...) {
         # Retrieve inverse matrix from Cache.
